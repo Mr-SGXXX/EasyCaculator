@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EasyCaculator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/EasyCaculator.res" /d "_DEBUG" /d "_AFXDLL" "D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\EasyCaculator\EasyCaculator.rc"" 
+Creating temporary file "C:\Users\0\AppData\Local\Temp\RSPC9D6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EasyCaculator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\EasyCaculator\EasyCaculator.cpp"
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\EasyCaculator\EasyCaculatorDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\0\AppData\Local\Temp\RSPC9D6.tmp" 
+Creating temporary file "C:\Users\0\AppData\Local\Temp\RSPC9D7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/EasyCaculator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\EasyCaculator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\0\AppData\Local\Temp\RSPC9D7.tmp" 
+Creating temporary file "C:\Users\0\AppData\Local\Temp\RSPC9D8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/EasyCaculator.pdb" /debug /machine:I386 /out:"Debug/EasyCaculator.exe" /pdbtype:sept 
+".\Debug\EasyCaculator.obj"
+".\Debug\EasyCaculatorDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\EasyCaculator.res"
+]
+Creating command line "link.exe @C:\Users\0\AppData\Local\Temp\RSPC9D8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Skipping... (no relevant changes detected)
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+EasyCaculator.cpp
+EasyCaculatorDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+EasyCaculator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
